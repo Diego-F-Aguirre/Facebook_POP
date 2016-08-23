@@ -12,9 +12,15 @@
 		BC31C37B1D6C085A00D0163C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC31C3791D6C085A00D0163C /* Main.storyboard */; };
 		BC31C37D1D6C085A00D0163C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC31C37C1D6C085A00D0163C /* Assets.xcassets */; };
 		BC31C3801D6C085A00D0163C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC31C37E1D6C085A00D0163C /* LaunchScreen.storyboard */; };
+		BC31C38C1D6C108A00D0163C /* PhotoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC31C38B1D6C108A00D0163C /* PhotoImageView.swift */; };
+		BC75B7DA1D6C16D4001E5BB7 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC75B7D91D6C16D4001E5BB7 /* ResetButton.swift */; };
+		E8941F9C9A19CFEC8A2C6A7A /* Pods_FaceBook_Pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032FBEF4645D817366EA1D3 /* Pods_FaceBook_Pop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3032FBEF4645D817366EA1D3 /* Pods_FaceBook_Pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceBook_Pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD4FF9CFF59D22E1C36C882 /* Pods-FaceBook_Pop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBook_Pop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBook_Pop/Pods-FaceBook_Pop.debug.xcconfig"; sourceTree = "<group>"; };
+		67229E96CCFC693DD5AE7B7E /* Pods-FaceBook_Pop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceBook_Pop.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceBook_Pop/Pods-FaceBook_Pop.release.xcconfig"; sourceTree = "<group>"; };
 		BC31C3721D6C085A00D0163C /* FaceBook_Pop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBook_Pop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC31C3751D6C085A00D0163C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC31C3771D6C085A00D0163C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		BC31C37C1D6C085A00D0163C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC31C37F1D6C085A00D0163C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC31C3811D6C085A00D0163C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC31C38B1D6C108A00D0163C /* PhotoImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoImageView.swift; sourceTree = "<group>"; };
+		BC75B7D91D6C16D4001E5BB7 /* ResetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8941F9C9A19CFEC8A2C6A7A /* Pods_FaceBook_Pop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45C2893A7939C2C3B8F02BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3032FBEF4645D817366EA1D3 /* Pods_FaceBook_Pop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC31C3691D6C085A00D0163C = {
 			isa = PBXGroup;
 			children = (
 				BC31C3741D6C085A00D0163C /* FaceBook_Pop */,
 				BC31C3731D6C085A00D0163C /* Products */,
+				FE1A9E787261038C15B78385 /* Pods */,
+				45C2893A7939C2C3B8F02BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +96,8 @@
 		BC31C3881D6C086F00D0163C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BC31C38B1D6C108A00D0163C /* PhotoImageView.swift */,
+				BC75B7D91D6C16D4001E5BB7 /* ResetButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +117,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		FE1A9E787261038C15B78385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD4FF9CFF59D22E1C36C882 /* Pods-FaceBook_Pop.debug.xcconfig */,
+				67229E96CCFC693DD5AE7B7E /* Pods-FaceBook_Pop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC31C3841D6C085A00D0163C /* Build configuration list for PBXNativeTarget "FaceBook_Pop" */;
 			buildPhases = (
+				BBF81D5BF7336E31966F6E5A /* 📦 Check Pods Manifest.lock */,
 				BC31C36E1D6C085A00D0163C /* Sources */,
 				BC31C36F1D6C085A00D0163C /* Frameworks */,
 				BC31C3701D6C085A00D0163C /* Resources */,
+				CFBA9C6B065F15019FC6B026 /* 📦 Embed Pods Frameworks */,
+				7199587A6ED69BBAD80E3018 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,13 +195,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7199587A6ED69BBAD80E3018 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBook_Pop/Pods-FaceBook_Pop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF81D5BF7336E31966F6E5A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFBA9C6B065F15019FC6B026 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceBook_Pop/Pods-FaceBook_Pop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC31C36E1D6C085A00D0163C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC31C38C1D6C108A00D0163C /* PhotoImageView.swift in Sources */,
 				BC31C3781D6C085A00D0163C /* ViewController.swift in Sources */,
 				BC31C3761D6C085A00D0163C /* AppDelegate.swift in Sources */,
+				BC75B7DA1D6C16D4001E5BB7 /* ResetButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +362,7 @@
 		};
 		BC31C3851D6C085A00D0163C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD4FF9CFF59D22E1C36C882 /* Pods-FaceBook_Pop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceBook_Pop/Info.plist;
@@ -290,6 +374,7 @@
 		};
 		BC31C3861D6C085A00D0163C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67229E96CCFC693DD5AE7B7E /* Pods-FaceBook_Pop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceBook_Pop/Info.plist;
@@ -318,6 +403,7 @@
 				BC31C3861D6C085A00D0163C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
